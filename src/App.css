@@ -18,23 +18,38 @@ body {
   color: white;
 }
 
-input {
+.search {
   font-size: calc(10px + 2vmin);
   padding: 5px;
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 0;
 }
 
 a {
   color: white;
+  transition: all 200ms ease-in;
 }
 
-.list {
-  margin-top: 20px;
+a[disabled] {
+  color: gray;
 }
 
-.list a {
+.sellers {
+  margin-top: 1.5em;
+}
+
+.sellers a {
   display: block;
 }
 
 .helper-text {
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.scope, .scope input {
+  font-size: 14px;
+  margin: 0;
 }
