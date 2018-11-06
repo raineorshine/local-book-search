@@ -1,3 +1,9 @@
+Convenience tool for searching multiple bookstore sites
+
+![Screenshot](https://raw.githubusercontent.com/raineorshine/local-book-search/master/screenshot.png)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
